@@ -1,22 +1,28 @@
 #ifndef KDTREE_H_INCLUDED
 #define KDTREE_H_INCLUDED
 
-class tree
+class Tree
 {
     public:
-        tree();
-        ~tree();
+        Tree();
+        ~Tree();
 
     private:
-        struct point
+        struct Point
         {
             double xCoord;
             double yCoord;
 
-            point(double x, double y) : xCoord(x), yCoord(y) {}
-        };
-        point *root;
+            Point(double x, double y) : xCoord(x), yCoord(y) {}
+		};
 
+		// Node's structure (element of the tree)
+		struct Node{
+			Point data;
+			Node *left, *right, *parent;
+		};
+
+		Node *root;
 
 };
 
