@@ -7,6 +7,7 @@ class Tree
         Tree();
         ~Tree();
 
+
     private:
         struct Point
         {
