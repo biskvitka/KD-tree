@@ -17,7 +17,6 @@ class tree
         };
         point *root;
 
-
 };
 
 #endif // KDTREE_H_INCLUDED
