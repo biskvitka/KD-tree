@@ -1,11 +1,12 @@
 #ifndef KDTREE_H_INCLUDED
 #define KDTREE_H_INCLUDED
 
+#include <iostream>
+
 class Tree
 {
     public:
         Tree();
-		Tree(Point..)
         ~Tree();
 
 
