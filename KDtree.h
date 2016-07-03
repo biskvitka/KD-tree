@@ -5,10 +5,13 @@ class Tree
 {
     public:
         Tree();
+		Tree(Point..)
         ~Tree();
 
 
     private:
+
+		//Data type of the Node
         struct Point
         {
             double xCoord;
